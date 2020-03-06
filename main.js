@@ -18,6 +18,5 @@ createTestCafe('localhost', 1337, 1338, sslOptions)
     .browsers('chrome --allow-insecure-localhost')
     .run({
         skipJsErrors:   true,
-        debugOnFail:    true
     });
 });
